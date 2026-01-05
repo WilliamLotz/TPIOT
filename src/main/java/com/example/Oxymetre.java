@@ -1,11 +1,15 @@
+package com.example;
 public class Oxymetre {
+    
     
     private double saturationOxygene;
 
-    public Oxymetre( double saturationOxygene) {
-       
+    public Oxymetre(double saturationOxygene) {
+        
         this.saturationOxygene = saturationOxygene;
     }
+
+    
 
     public double getSaturationOxygene() {
         return saturationOxygene;
